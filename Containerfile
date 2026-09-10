@@ -13,9 +13,9 @@ COPY system_files /system_files
 # ... and so on, here are more base images
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
 # Fedora base image: quay.io/fedora/fedora-bootc:44
-FROM quay.io/fedora/fedora-bootc:44
+# FROM quay.io/fedora/fedora-bootc:44
 # CentOS base images: quay.io/centos-bootc/centos-bootc:stream10
-
+FROM quay.io/centos-bootc/centos-bootc:c10s
 ### [IM]MUTABLE /opt
 ## Some bootable images, like Fedora, have /opt symlinked to /var/opt, in order to
 ## make it mutable/writable for users. However, some packages write files to this directory,

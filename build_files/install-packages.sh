@@ -13,7 +13,7 @@ SHARED_PACKAGES=(
     # bpftool
     dconf
     dnsmasq
-    distrobox
+    # distrobox not part of centos packages
     firewalld
     fprintd-pam
     git-core

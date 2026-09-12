@@ -27,7 +27,6 @@ SHARED_PACKAGES=(
     gnome-session-wayland-session
     gnome-settings-daemon
     gnome-shell
-    gnome-software
     # gnome-shell-extension-background-logo
     gnome-software
     # gvfs-fuse

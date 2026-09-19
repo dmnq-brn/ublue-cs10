@@ -10,3 +10,5 @@ cp -avf "/ctx/system_files"/. /
 
 ### add flatpak flathub remote repository
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+rm /usr/share/gnome-initial-setup/initial-set-up-dconf-dconf-defaults

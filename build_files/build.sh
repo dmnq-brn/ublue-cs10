@@ -9,4 +9,4 @@ cp -avf "/ctx/system_files"/. /
 /ctx/install-packages.sh
 
 ### add flatpak flathub remote repository
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo#### Example for enabling a System Unit File
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo

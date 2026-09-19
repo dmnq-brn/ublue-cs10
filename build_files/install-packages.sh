@@ -17,12 +17,14 @@ SHARED_PACKAGES=(
     rsync
     realmd
     smartmontools
+    usbguard
     vim-enhanced
 )
 
 GNOME_DESKTOP_PACKAGES=(
     # Gnome minimal desktop
     # ModemManager-glib required by gnome-control-center
+    centos-backgrounds
     dconf
     fprintd-pam
     flatpak
@@ -98,15 +100,6 @@ BLUETOOTH_PACKAGES=(
 GNOME_BLUETOOTH_PACKAGES=(
     gnome-bluetooth
     # gnome-bluetooth-libs
-)
-
-# centos specific packages
-CENTOS_PACKAGES=(
-    centos-backgrounds
-)
-
-FEDORA_PACKAGES=(
-    desktop-backgrounds-gnome
 )
 
 OPENSSH_SERVER_PACKAGES=(

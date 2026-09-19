@@ -8,6 +8,5 @@ cp -avf "/ctx/system_files"/. /
 ### Install packages
 /ctx/install-packages.sh
 
-#### Example for enabling a System Unit File
-
-systemctl enable podman.socket
+### add flatpak flathub remote repository
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo#### Example for enabling a System Unit File

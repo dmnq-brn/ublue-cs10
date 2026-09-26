@@ -1,0 +1,11 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/flatpak preinstall -y
+RemainAfterExit=true
+Restart=on-failure
+RestratSec=30
+
+StartLimitBurst=3
+
+[Install]
+Wantedby=multi-user.target

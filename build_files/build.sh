@@ -13,5 +13,8 @@ rm /usr/share/dconf/profile/gnome-initial-setup
 rm /usr/share/gnome-initial-setup/initial-setup-dconf-defaults
 rm /usr/share/gnome-initial-setup/vendor.conf
 
-### enable flatpak preinstall system Unit File
+# Setup Systemd
+## Remove systemd unwanted services
+## Enable systemd required services
+### flatpak preinstall
 systemctl enable flatpak-preinstall.service

@@ -29,6 +29,7 @@ GNOME_DESKTOP_PACKAGES=(
     fprintd-pam
     flatpak
     gdm
+    glib-networking
     glibc-all-langpacks
     gnome-control-center
     gnome-disk-utility

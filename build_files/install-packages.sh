@@ -51,6 +51,7 @@ GNOME_DESKTOP_PACKAGES=(
     # totem-pl-parser
     tracker
     tracker-miners
+    unzip
     xdg-desktop-portal
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk

@@ -52,10 +52,10 @@ GNOME_DESKTOP_PACKAGES=(
     tracker
     tracker-miners
     unzip
-    xdg-desktop-portal
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
     xdg-user-dirs-gtk
+    xdg-utils
     # yelp-tools
 )
 
